@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\10529740\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Senior capstone project.1578945347.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10529740\Desktop\Senior capstone project" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Dialog.cs" t="Include" />
+        <e p="DialogTrigger.cs" t="Include" />
+        <e p="DialogueManager.cs" t="Include" />
+        <e p="LacerationScript.cs" t="Include" />
+        <e p="scripts" t="Include">
+          <e p="AmbulenceCountdown.cs" t="Include" />
+          <e p="conversationScript.cs" t="Include" />
+          <e p="CPR.cs" t="Include" />
+          <e p="DeathCountdown.cs" t="Include" />
+          <e p="EpenMover.cs" t="Include" />
+          <e p="ExitGame.cs" t="Include" />
+          <e p="GameOverScript.cs" t="Include" />
+          <e p="Pulse_Health.cs" t="Include" />
+        </e>
+        <e p="TextCounter.cs" t="Include" />
+        <e p="TextCtrl.cs" t="Include" />
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Senior capstone project.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
