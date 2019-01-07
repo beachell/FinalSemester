@@ -14,8 +14,20 @@
       <file leaf-file-name="TextCtrl.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/TextCtrl.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
+            <state relative-caret-position="510">
               <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <marker date="1544040346000" expanded="false" signature="6:143" ph="..." />
+                <marker date="1544040346000" expanded="true" signature="183:2114" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="705:958" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="994:1361" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="1019:1239" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="1239:1355" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="1388:1601" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="1647:1864" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="1890:2112" ph="{...}" />
+                <marker date="1544040346000" expanded="true" signature="1994:2106" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -23,13 +35,13 @@
       <file leaf-file-name="LacerationScript.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/LacerationScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            <state relative-caret-position="315">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
-                <marker date="1546892196846" expanded="false" signature="6:78" ph="..." />
-                <marker date="1546892196846" expanded="true" signature="126:445" ph="{...}" />
-                <marker date="1546892196846" expanded="true" signature="303:442" ph="{...}" />
-                <marker date="1546892196846" expanded="true" signature="331:390" ph="{...}" />
+                <marker date="1546897374084" expanded="false" signature="6:78" ph="..." />
+                <marker date="1546897374084" expanded="true" signature="126:495" ph="{...}" />
+                <marker date="1546897374084" expanded="true" signature="302:492" ph="{...}" />
+                <marker date="1546897374084" expanded="true" signature="381:440" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -68,11 +80,14 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/TextCounter.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LacerationScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TextCtrl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/EpenMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextCounter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextCtrl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LacerationScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -91,21 +106,16 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
-    <option name="y" value="14" />
-    <option name="width" value="1286" />
+    <option name="x" value="959" />
+    <option name="width" value="968" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
-      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -117,6 +127,11 @@
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
       </pane>
     </panes>
   </component>
@@ -157,11 +172,12 @@
       <workItem from="1543865335444" duration="1564000" />
       <workItem from="1544033231547" duration="3082000" />
       <workItem from="1546892156399" duration="607000" />
+      <workItem from="1546896747774" duration="1062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11579000" />
+    <option name="totallyTimeSpent" value="12641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -173,27 +189,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="14" width="1286" height="1047" extended-state="0" />
+    <frame x="959" y="0" width="968" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29608482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40638766" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -213,6 +229,65 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/TextCtrl.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <marker date="1544040346000" expanded="false" signature="6:143" ph="..." />
+            <marker date="1544040346000" expanded="true" signature="183:2114" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="705:958" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="994:1361" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1019:1239" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1239:1355" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1388:1601" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1647:1864" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1890:2112" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1994:2106" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/TextCounter.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1543865554000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543865554000" expanded="true" signature="120:358" ph="{...}" />
+            <marker date="1543865554000" expanded="true" signature="247:353" ph="{...}" />
+            <marker date="1543865554000" expanded="true" signature="271:350" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/EpenMover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <marker date="1543430796000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1543430796000" expanded="true" signature="119:559" ph="{...}" />
+            <marker date="1543430796000" expanded="true" signature="206:429" ph="{...}" />
+            <marker date="1543430796000" expanded="true" signature="468:557" ph="{...}" />
+            <marker date="1543430796000" expanded="true" signature="508:551" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/LacerationScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding>
+            <marker date="1546897374084" expanded="false" signature="6:78" ph="..." />
+            <marker date="1546897374084" expanded="true" signature="126:495" ph="{...}" />
+            <marker date="1546897374084" expanded="true" signature="302:492" ph="{...}" />
+            <marker date="1546897374084" expanded="true" signature="381:440" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TextCtrl.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -338,20 +413,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/TextCtrl.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
+        <state relative-caret-position="510">
           <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <marker date="1544040346000" expanded="false" signature="6:143" ph="..." />
+            <marker date="1544040346000" expanded="true" signature="183:2114" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="705:958" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="994:1361" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1019:1239" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1239:1355" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1388:1601" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1647:1864" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1890:2112" ph="{...}" />
+            <marker date="1544040346000" expanded="true" signature="1994:2106" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LacerationScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <marker date="1546892196846" expanded="false" signature="6:78" ph="..." />
-            <marker date="1546892196846" expanded="true" signature="126:445" ph="{...}" />
-            <marker date="1546892196846" expanded="true" signature="303:442" ph="{...}" />
-            <marker date="1546892196846" expanded="true" signature="331:390" ph="{...}" />
+            <marker date="1546897374084" expanded="false" signature="6:78" ph="..." />
+            <marker date="1546897374084" expanded="true" signature="126:495" ph="{...}" />
+            <marker date="1546897374084" expanded="true" signature="302:492" ph="{...}" />
+            <marker date="1546897374084" expanded="true" signature="381:440" ph="{...}" />
           </folding>
         </state>
       </provider>
