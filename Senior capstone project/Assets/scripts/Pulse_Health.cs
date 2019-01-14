@@ -24,28 +24,33 @@ public class Pulse_Health : MonoBehaviour {
 
 
     void Start () {
-      StartCoroutine(HeartBeat());
+      index   = Random.Range(bpm, heartAttack + 1);
+
+      StartCoroutine(HeartBeat(index));
       StartCoroutine(Breathing());
+
       TheCprObject.SetActive(false);
       DeathObject.SetActive(false);
       Epen.SetActive(true);
     }
 
 	//this is the running script that will check the heart beat
-	IEnumerator HeartBeat() {
+	IEnumerator HeartBeat(float beat) {
       
         while (heartBeating)
         {
             //make an if statement that will change the bpm and if it gets to heart attack it will trigger CardiacArrest() 
             //will need a function that will randomize if the patients heart beat increases to elevated and stay there and then randomly will increase or decrease unless treatment is done. 
-            index   = Random.Range(bpm, heartAttack + 1);
+           print("bmp " +beat);
             if (index < heartAttack)
                 {
+
                 //Debug.Log("beat_" +bpm);
                 }else{
                 heartBeating = false;
-                Debug.Log("heart attack");
+                Debug.Log("heart ak");
                 TheCprObject.SetActive(true);
+
                 }
             yield return new WaitForSeconds(1);
         }

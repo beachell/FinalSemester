@@ -10,7 +10,7 @@ public class LacerationScript : MonoBehaviour {
 
     int countdown = 50;
 
-    void OnMouseDown(){
+    void OnMouseOver(){
         Debug.Log("cut is compressed" +countdown);
         if (countdown > 0){
         countdown --;
