@@ -13,7 +13,7 @@ public class CPR : MonoBehaviour {
     bool isCompressionUsed = true;
     bool canStrike;
 
-    public
+    public GameObject CprBox ;
 
     void OnEnable() {
         StartCoroutine(Cpr());
@@ -56,7 +56,7 @@ public class CPR : MonoBehaviour {
         }
     }
 
-    void Update() {
+ /*   void Update() {
         timedCompression = Time.deltaTime;
         
           if (Input.GetKeyDown(KeyCode.Space) && isCompressionUsed == true && canStrike)
@@ -67,6 +67,24 @@ public class CPR : MonoBehaviour {
             isCompressionUsed = false;
 
         } else if (Input.GetKeyDown(KeyCode.Space) && isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.
+        print ("out of rythm ");
+        }
+
+       timedCompression = timedCompression + 0.1f;
+
+
+    }*/
+        void OnMouseDown() {
+        timedCompression = Time.deltaTime;
+
+          if (isCompressionUsed == true && canStrike)
+        {
+            //this is suppose to keep the game going as long as they press the spacebar on rythm
+            print("press____"+deathTimer);
+            deathTimer++;
+            isCompressionUsed = false;
+
+        } else if (isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.
         print ("out of rythm ");
         }
 

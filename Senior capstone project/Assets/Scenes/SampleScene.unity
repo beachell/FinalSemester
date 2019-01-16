@@ -460,6 +460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 99bd7ea33327e5349b03760875b855ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mouseSensitivity: 100
+  clampAngle: 80
 --- !u!1 &283863437
 GameObject:
   m_ObjectHideFlags: 0
@@ -788,7 +790,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &327338644
 Transform:
   m_ObjectHideFlags: 0
@@ -3352,6 +3354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9c708bc7dea6e4ab4310f15a0226a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CprBox: {fileID: 0}
 --- !u!65 &1887697137
 BoxCollider:
   m_ObjectHideFlags: 0
