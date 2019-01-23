@@ -12,12 +12,18 @@ public class CPR : MonoBehaviour {
     bool gameStillPlaying = true;
     bool isCompressionUsed = true;
     bool canStrike;
+    public Color ReadyColor;
+    public Color NRColor;
+    public float colorChange = 0.01f;
 
     public GameObject CprBox ;
 
     void OnEnable() {
         StartCoroutine(Cpr());
         StartCoroutine(GameOver());
+      //  Renderer rend = GetComponent<Renderer>();
+        GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
+
     }
 
     IEnumerator Cpr()
@@ -26,10 +32,20 @@ public class CPR : MonoBehaviour {
         {
             if (isCompressionUsed == false)
             {
+             //change the color of the object to red
+             //rend.SharedMaterial.shader = Shader.Find("_Color");
+             //CprBox.SharedMaterial.SetColor("_Color", Color.green);
+
+
             isCompressionUsed = true;
+             GetComponent<Renderer>().material.color = Color.Lerp(NRColor, ReadyColor, colorChange);
+
             }
             StartCoroutine(OutOfRythm());
             yield return new WaitForSeconds(cprRythm);
+            //change the color of the object to green
+            GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
+
 
 
         }

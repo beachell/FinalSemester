@@ -1,4 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/SampleScene.unity
+- path: C:/Users/10529740/Desktop/Final semester/FinalSemester/level design/level
+    design/Assets/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
