@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BandageScript : MonoBehaviour {
 
-	float followDistance = 11;
+	float followDistance = 12;
 
 
 

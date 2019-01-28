@@ -12,18 +12,12 @@ public class CPR : MonoBehaviour {
     bool gameStillPlaying = true;
     bool isCompressionUsed = true;
     bool canStrike;
-    public Color ReadyColor;
-    public Color NRColor;
-    public float colorChange = 0.01f;
 
-    public GameObject CprBox ;
+    public
 
     void OnEnable() {
         StartCoroutine(Cpr());
         StartCoroutine(GameOver());
-      //  Renderer rend = GetComponent<Renderer>();
-        GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
-
     }
 
     IEnumerator Cpr()
@@ -32,20 +26,10 @@ public class CPR : MonoBehaviour {
         {
             if (isCompressionUsed == false)
             {
-             //change the color of the object to red
-             //rend.SharedMaterial.shader = Shader.Find("_Color");
-             //CprBox.SharedMaterial.SetColor("_Color", Color.green);
-
-
             isCompressionUsed = true;
-             GetComponent<Renderer>().material.color = Color.Lerp(NRColor, ReadyColor, colorChange);
-
             }
             StartCoroutine(OutOfRythm());
             yield return new WaitForSeconds(cprRythm);
-            //change the color of the object to green
-            GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
-
 
 
         }
@@ -72,7 +56,7 @@ public class CPR : MonoBehaviour {
         }
     }
 
- /*   void Update() {
+    void Update() {
         timedCompression = Time.deltaTime;
         
           if (Input.GetKeyDown(KeyCode.Space) && isCompressionUsed == true && canStrike)
@@ -83,24 +67,6 @@ public class CPR : MonoBehaviour {
             isCompressionUsed = false;
 
         } else if (Input.GetKeyDown(KeyCode.Space) && isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.
-        print ("out of rythm ");
-        }
-
-       timedCompression = timedCompression + 0.1f;
-
-
-    }*/
-        void OnMouseDown() {
-        timedCompression = Time.deltaTime;
-
-          if (isCompressionUsed == true && canStrike)
-        {
-            //this is suppose to keep the game going as long as they press the spacebar on rythm
-            print("press____"+deathTimer);
-            deathTimer++;
-            isCompressionUsed = false;
-
-        } else if (isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.
         print ("out of rythm ");
         }
 
