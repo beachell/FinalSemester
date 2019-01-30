@@ -6,6 +6,7 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="CharacterControllerScript.cs" t="Include" />
         <e p="lightscript.cs" t="Include" />
         <e p="MouseLookScript.cs" t="Include" />
         <e p="MovementScript.cs" t="Include" />
@@ -132,6 +133,7 @@
             </e>
           </e>
         </e>
+        <e p="TriggerFall.cs" t="Include" />
       </e>
       <e p="level design.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
