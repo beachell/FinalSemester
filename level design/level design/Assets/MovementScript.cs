@@ -13,14 +13,23 @@ public class MovementScript : MonoBehaviour
 	public int GravityForces = -10;
 	
 	private Rigidbody rb;
+	
+	public float mouseSensitivity = 100.0f;
+	public float clampAngle = 80.0f;
+ 
+	private float rotY = 0.0f; // rotation around the up/y axis
+	private float rotX = 0.0f; // rotation around the right/x axis
+	private float waitTime = .0001f;
 
-	public float waitTime = 0.1f;
-
+	public Vector3 rot;
 	// Use this for initialization
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
 		StartCoroutine(Mover());
+		rot = transform.localRotation.eulerAngles;
+		rotY = rot.y;
+		rotX = rot.x;
 	}
 
 	IEnumerator Mover()
@@ -39,10 +48,21 @@ public class MovementScript : MonoBehaviour
 			{
 				Jump();
 			}
+			float mouseX = Input.GetAxis("Mouse X");
+			float mouseY = -Input.GetAxis("Mouse Y");
+
+			rotY += mouseX * mouseSensitivity * Time.deltaTime;
+			rotX += mouseY * mouseSensitivity * Time.deltaTime;
+
+			rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);
+
+			Quaternion localRotation = Quaternion.Euler(rotX, rotY, 0.0f);
+			transform.rotation = localRotation;
+			
 			yield return new WaitForSeconds(waitTime);
 		}
 	}
-
+	
 	void Jump()
 	{
 		if (currentJumpNum < maxJump)
@@ -56,7 +76,7 @@ public class MovementScript : MonoBehaviour
 	{
 		currentJumpNum = 0;
 	}
-	
+
 }
 /*
  * 	

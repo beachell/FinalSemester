@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class TriggerObjects : MonoBehaviour {
-    public GameObject objectToDisappear;
+    public GameObject objectToActivate;
     
     void Start()
     {
@@ -12,6 +12,7 @@ public class TriggerObjects : MonoBehaviour {
 
     void OnMouseDown()
     {
-        objectToDisappear.SetActive(false); 
+        objectToActivate.SetActive(true); 
+        this.gameObject.SetActive(false);
     }
 }
