@@ -13,6 +13,7 @@ public class TextCtrl : MonoBehaviour {
     private int i = 0;
     private int m ;
     public GameObject ObjectToBeActivated;
+
    // public GameObject ResponseText;
     //public GameObject startText; 
     
@@ -21,6 +22,7 @@ public class TextCtrl : MonoBehaviour {
 	{
 	   // if (ResponseText != null) ResponseText.SetActive(false);
 	    if (ObjectToBeActivated != null) ObjectToBeActivated.SetActive(false);
+
 	    listsizeText = QuestText.Count;
         m = QuestText.Count;
         TextRandomizer();
@@ -28,7 +30,7 @@ public class TextCtrl : MonoBehaviour {
     
     private void OnMouseDown()
     {
-        if (m > 0)
+        if (m > 1)
         {
             m--;
             TextRandomizer();
@@ -42,7 +44,7 @@ public class TextCtrl : MonoBehaviour {
 
     void TextRandomizer()
     {
-        GetComponent<TextMesh>().text = QuestText[i];
+        GetComponent<Text>().text = QuestText[i];
         //This chooses a random text/question
         i++;     
         if (i == 0)

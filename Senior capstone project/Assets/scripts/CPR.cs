@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CPR : MonoBehaviour {
 
-    float deathTimer = 40;
+    public float deathTimer = 40;
     float cprRythm = 1.733f;
     float badCprRythm = 0.5f;
     float timedCompression = 0;
@@ -17,13 +17,14 @@ public class CPR : MonoBehaviour {
     public float colorChange = 0.01f;
 
     public GameObject CprBox ;
+    public GameObject objThing ;
 
     void OnEnable() {
         StartCoroutine(Cpr());
         StartCoroutine(GameOver());
       //  Renderer rend = GetComponent<Renderer>();
         GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
-
+        objThing.SetActive(true);
     }
 
     IEnumerator Cpr()

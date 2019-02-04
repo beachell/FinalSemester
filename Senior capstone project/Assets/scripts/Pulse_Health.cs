@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Pulse_Health : MonoBehaviour {
-    public bool heartBeating = true;
+   // public bool heartBeating = true;
     public bool isBreathing = true;
     public bool alive = true;
       bool exhale = true;
@@ -17,7 +17,7 @@ public class Pulse_Health : MonoBehaviour {
 
     public GameObject TheCprObject;
     public GameObject DeathObject;
-    public GameObject Epen;
+    //public GameObject Epen;
 
 
 
@@ -26,16 +26,16 @@ public class Pulse_Health : MonoBehaviour {
     void Start () {
       index   = Random.Range(bpm, heartAttack + 1);
 
-      StartCoroutine(HeartBeat(index));
+    //  StartCoroutine(HeartBeat(index));
       StartCoroutine(Breathing());
 
       TheCprObject.SetActive(false);
       DeathObject.SetActive(false);
-      Epen.SetActive(true);
+     // Epen.SetActive(true);
     }
 
 	//this is the running script that will check the heart beat
-	IEnumerator HeartBeat(float beat) {
+	/*IEnumerator HeartBeat(float beat) {
       
         while (heartBeating)
         {
@@ -54,13 +54,13 @@ public class Pulse_Health : MonoBehaviour {
                 }
             yield return new WaitForSeconds(1);
         }
-    }
+    }*/
     IEnumerator Breathing() {
-      int stopbreathing = 20;
+      //int stopbreathing = 20;
         while (isBreathing)
         {
-            //this will run every second randomly testing the value to see if it should stop breathing.
-            index   = Random.Range(1, stopbreathing + 1);
+             /*//this will run every second randomly testing the value to see if it should stop breathing.
+           // index   = Random.Range(1, stopbreathing + 1);
             if (index < stopbreathing)
                 {
               // Debug.Log("breathing" + index);
@@ -69,7 +69,7 @@ public class Pulse_Health : MonoBehaviour {
                 DeathObject.SetActive(true);
                 StopCoroutine(Breathing());
                 //Debug.Log("stopped breathing");
-                }
+                }*/
             if(exhale == true){
                transform.localScale += new Vector3(0.1F, 0, 0);
                exhale = false;              

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeathCountdown : MonoBehaviour {
 
-int countdown = 120;
+public int countdown = 60;
 
   void OnEnable() {
         StartCoroutine(Death());
