@@ -56,7 +56,7 @@ public class TextCtrl : MonoBehaviour {
     {
       
             ObjectToBeActivated.SetActive(true);
-            Debug.Log("object activated");
+            //Debug.Log("object activated");
      
     }
 }
