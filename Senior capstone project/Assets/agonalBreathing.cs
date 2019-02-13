@@ -39,7 +39,7 @@ public class agonalBreathing : MonoBehaviour {
 	       count = 0;
 	   }*/
 
-	public IEnumerator WaitForSound(AudioClip sound)
+	 IEnumerator WaitForSound(AudioClip sound)
 	{
 		print("the enum started");
 		yield return new WaitUntil(() => audiosource.isPlaying == false);
