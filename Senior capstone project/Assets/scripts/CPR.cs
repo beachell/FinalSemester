@@ -5,7 +5,7 @@ using UnityEngine;
 public class CPR : MonoBehaviour {
 
     public float deathTimer = 40;
-    float cprRythm = 1.6667f;
+    float cprRythm = 0.6667f;
     float badCprRythm = 0.5f;
     float timedCompression = 0;
 
@@ -50,6 +50,7 @@ public class CPR : MonoBehaviour {
     IEnumerator OutOfRythm (){
         canStrike = !canStrike;
       //  GetComponent<Renderer>().material.color = Color.Lerp(NRColor, ReadyColor, colorChange);//red
+        print ("out of rythm ");
         yield return new WaitForSeconds(badCprRythm);
         canStrike = !canStrike;
         
@@ -69,33 +70,19 @@ public class CPR : MonoBehaviour {
         }
     }
 
- /*   void Update() {
-        timedCompression = Time.deltaTime;
-        
-          if (Input.GetKeyDown(KeyCode.Space) && isCompressionUsed == true && canStrike)
-        {
-            //this is suppose to keep the game going as long as they press the spacebar on rythm
-            print("press____"+deathTimer);
-            deathTimer++;
-            isCompressionUsed = false;
-        } else if (Input.GetKeyDown(KeyCode.Space) && isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.
-        print ("out of rythm ");
-        }
-       timedCompression = timedCompression + 0.1f;
-    }*/
         void OnMouseDown()
         {
-            print("pressed");
+            GetComponent<Renderer>().material.color = Color.Lerp(NRColor, ReadyColor, colorChange);//red
         timedCompression = Time.deltaTime;
           if (isCompressionUsed == true && canStrike)
         {
             //this is suppose to keep the game going as long as they press the spacebar on rythm
             print("press____"+deathTimer);
             deathTimer++;
-            GetComponent<Renderer>().material.color = Color.Lerp(NRColor, ReadyColor, colorChange);//red
             isCompressionUsed = false;
         } else if (isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.
         print ("out of rythm ");
+            GetComponent<Renderer>().material.color = Color.Lerp(NRColor, ReadyColor, colorChange);//red
         }
        timedCompression = timedCompression + 0.1f;
     }
