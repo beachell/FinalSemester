@@ -3,24 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class GameOverScript : MonoBehaviour {
-
+    public float i = 60;
 	// Use this for initialization
 	void OnEnable () {
 
-
-        Debug.Log("game over");
+        StartCoroutine(GameEnder());        
 	}
-    /* //call this with the results of the cpr or ambulance
-    public void EndGAme(bool isDead)
+
+    IEnumerator GameEnder()
     {
-        if (isDead == true) {
-            //
-            Debug.Log("Patien has died");
-        }else
+        while (true)
         {
-            Debug.Log("Patient saved");
+            print("count down" + i);
+            yield return new WaitForSeconds(1);
+
+            if (i > 0)
+            {
+                i--;
+            }
+            else
+            {
+                print("Victory");
+            }
         }
 
-
-    }*/
+    }
 }
