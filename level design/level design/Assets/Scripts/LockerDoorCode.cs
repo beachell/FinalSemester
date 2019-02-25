@@ -5,15 +5,16 @@ using UnityEngine;
 public class LockerDoorCode : MonoBehaviour {
 
 	public GameObject objectToDeactivate;
-    
+	
 	void Start()
 	{
-       
+		
 	}
 
 	void OnMouseDown()
 	{
 		objectToDeactivate.SetActive(false); 
 		this.gameObject.SetActive(false);
+		
 	}
 }
