@@ -13,6 +13,8 @@ public class AmbulenceCountdown : MonoBehaviour {
 
     public int CountDown = 60;
 
+    public GameObject Victory;
+
 	public void Clicked () {
         StartCoroutine(VictoryCountdown());
 	}
@@ -30,6 +32,7 @@ public class AmbulenceCountdown : MonoBehaviour {
             else
             {
                 Debug.Log("Victory");
+                Victory.SetActive(true);
             }
             yield return new WaitForSeconds(1);
 

@@ -15,9 +15,10 @@ public class CPR : MonoBehaviour {
     public Color ReadyColor;
     public Color NRColor;
     public float colorChange = 0.0001f;
+    
 
     public GameObject CprBox ;
-    //public GameObject objThing ;
+    public GameObject objThing ;
 
     void OnEnable() {
         StartCoroutine(Cpr());
@@ -65,7 +66,7 @@ public class CPR : MonoBehaviour {
             {
               //print("game Over");//this is where you call the GameOverScript()
                 gameStillPlaying = false;
-            }
+                objThing.SetActive(true);            }
             print("dying"+deathTimer);
         }
     }

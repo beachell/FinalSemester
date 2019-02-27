@@ -75,27 +75,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CPR.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CPR.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/scripts/CPR.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="390">
+              <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
-                <marker date="1550088706859" expanded="false" signature="6:78" ph="..." />
-                <marker date="1550088706859" expanded="true" signature="113:2970" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="515:767" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="790:1511" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="817:1505" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="1049:1330" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="1085:1269" ph="/* change the color of the object to red ... */" />
-                <marker date="1550088706859" expanded="true" signature="1546:1816" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="1844:2197" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="1874:2191" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="1991:2142" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="2225:2968" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="2437:2662" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="2699:2911" ph="{...}" />
-                <marker date="1550088706859" expanded="true" signature="2972:6480" ph="/* public float deathTimer = 40; ... */" />
+                <marker date="1551304770636" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551304770636" expanded="true" signature="113:3014" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="518:770" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="793:1514" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="820:1508" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="1052:1333" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="1088:1272" ph="/* change the color of the object to red ... */" />
+                <marker date="1551304770636" expanded="true" signature="1549:1819" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="1847:2241" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="1877:2235" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="1994:2186" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="2269:3012" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="2481:2706" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="2743:2955" ph="{...}" />
+                <marker date="1551304770636" expanded="true" signature="3016:6524" ph="/* public float deathTimer = 40; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmbulenceCountdown.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/scripts/AmbulenceCountdown.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <marker date="1551304922995" expanded="false" signature="6:78" ph="..." />
+                <marker date="1551304922995" expanded="true" signature="128:1079" ph="{...}" />
+                <marker date="1551304922995" expanded="true" signature="134:413" ph="/* this is the count down for the player to win the game with an ambulence arriving. ... */" />
+                <marker date="1551304922995" expanded="true" signature="419:513" ph="/* will be activated when the player clicks the 911 button. ... */" />
+                <marker date="1551304922995" expanded="true" signature="603:651" ph="{...}" />
+                <marker date="1551304922995" expanded="true" signature="723:1077" ph="{...}" />
+                <marker date="1551304922995" expanded="true" signature="745:1069" ph="{...}" />
+                <marker date="1551304922995" expanded="true" signature="785:886" ph="{...}" />
+                <marker date="1551304922995" expanded="true" signature="903:1010" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,6 +127,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/scripts/AmbulenceCountdown.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/scripts/CPR.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MovementScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LacerationScript.cs" root0="FORCE_HIGHLIGHTING" />
@@ -129,6 +150,7 @@
         <option value="$PROJECT_DIR$/Assets/agonalBreathing.cs" />
         <option value="$PROJECT_DIR$/Assets/TextCtrl.cs" />
         <option value="$PROJECT_DIR$/Assets/scripts/CPR.cs" />
+        <option value="$PROJECT_DIR$/Assets/scripts/AmbulenceCountdown.cs" />
       </list>
     </option>
   </component>
@@ -149,6 +171,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -161,11 +188,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-file-system" value="false" />
-        <option name="show-all-items" value="false" />
-      </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,11 +233,12 @@
       <workItem from="1549911188915" duration="1680000" />
       <workItem from="1549914273478" duration="5416000" />
       <workItem from="1551126299636" duration="1298000" />
+      <workItem from="1551304328457" duration="1188000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24498000" />
+    <option name="totallyTimeSpent" value="25686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -234,15 +257,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08387097" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08479263" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,25 +290,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/TextCtrl.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="58" selection-end-column="14" />
-          <folding>
-            <marker date="1549917111753" expanded="false" signature="6:143" ph="..." />
-            <marker date="1549917111753" expanded="true" signature="183:1441" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="446:553" ph="/* public GameObject ResponseText; ... */" />
-            <marker date="1549917111753" expanded="true" signature="568:810" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="846:1091" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="871:980" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="980:1085" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="1118:1293" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="1320:1439" ph="{...}" />
-            <marker date="1549917111753" expanded="true" signature="1442:3390" ph="/* the original script I had wrote. ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/LacerationScript.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
@@ -326,21 +330,21 @@
         <state relative-caret-position="540">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
           <folding>
-            <marker date="1550088706859" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550088706859" expanded="true" signature="113:2970" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="515:767" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="790:1511" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="817:1505" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1049:1330" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1085:1269" ph="/* change the color of the object to red ... */" />
-            <marker date="1550088706859" expanded="true" signature="1546:1816" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1844:2197" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1874:2191" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1991:2142" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2225:2968" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2437:2662" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2699:2911" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2972:6480" ph="/* public float deathTimer = 40; ... */" />
+            <marker date="1551304770636" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551304770636" expanded="true" signature="113:3014" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="518:770" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="793:1514" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="820:1508" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1052:1333" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1088:1272" ph="/* change the color of the object to red ... */" />
+            <marker date="1551304770636" expanded="true" signature="1549:1819" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1847:2241" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1877:2235" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1994:2186" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="2269:3012" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="2481:2706" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="2743:2955" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="3016:6524" ph="/* public float deathTimer = 40; ... */" />
           </folding>
         </state>
       </provider>
@@ -707,24 +711,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/scripts/CPR.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+        <state relative-caret-position="390">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
-            <marker date="1550088706859" expanded="false" signature="6:78" ph="..." />
-            <marker date="1550088706859" expanded="true" signature="113:2970" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="515:767" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="790:1511" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="817:1505" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1049:1330" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1085:1269" ph="/* change the color of the object to red ... */" />
-            <marker date="1550088706859" expanded="true" signature="1546:1816" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1844:2197" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1874:2191" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="1991:2142" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2225:2968" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2437:2662" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2699:2911" ph="{...}" />
-            <marker date="1550088706859" expanded="true" signature="2972:6480" ph="/* public float deathTimer = 40; ... */" />
+            <marker date="1551304770636" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551304770636" expanded="true" signature="113:3014" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="518:770" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="793:1514" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="820:1508" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1052:1333" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1088:1272" ph="/* change the color of the object to red ... */" />
+            <marker date="1551304770636" expanded="true" signature="1549:1819" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1847:2241" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1877:2235" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="1994:2186" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="2269:3012" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="2481:2706" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="2743:2955" ph="{...}" />
+            <marker date="1551304770636" expanded="true" signature="3016:6524" ph="/* public float deathTimer = 40; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/scripts/AmbulenceCountdown.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <marker date="1551304922995" expanded="false" signature="6:78" ph="..." />
+            <marker date="1551304922995" expanded="true" signature="128:1079" ph="{...}" />
+            <marker date="1551304922995" expanded="true" signature="134:413" ph="/* this is the count down for the player to win the game with an ambulence arriving. ... */" />
+            <marker date="1551304922995" expanded="true" signature="419:513" ph="/* will be activated when the player clicks the 911 button. ... */" />
+            <marker date="1551304922995" expanded="true" signature="603:651" ph="{...}" />
+            <marker date="1551304922995" expanded="true" signature="723:1077" ph="{...}" />
+            <marker date="1551304922995" expanded="true" signature="745:1069" ph="{...}" />
+            <marker date="1551304922995" expanded="true" signature="785:886" ph="{...}" />
+            <marker date="1551304922995" expanded="true" signature="903:1010" ph="{...}" />
           </folding>
         </state>
       </provider>
