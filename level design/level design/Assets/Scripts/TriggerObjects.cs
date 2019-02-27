@@ -12,7 +12,7 @@ public class TriggerObjects : MonoBehaviour {
     void Start()
     {
         Renderer rend = GetComponent<Renderer>();
-        float startPos = transform.position;
+//        float startPos = transform.position;
     }
 
     void OnMouseDown()
@@ -21,6 +21,6 @@ public class TriggerObjects : MonoBehaviour {
         //this.gameObject.SetActive(false);
         //rend.material.shader = Shader.Find("_Color");
         //rend.material.SetColor = ("_Color.red");
-        objectToActivate.transform.position = Mathf.Lerp(moveDirectionx,moveDirectiony,moveDirectionz);
+        //objectToActivate.transform.position = Mathf.Lerp(moveDirectionx,moveDirectiony,moveDirectionz);
     }
 }
