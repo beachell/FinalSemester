@@ -19,7 +19,7 @@ IEnumerator flickerLight() {
      float waittime = Random.Range(shortTime, longwait+1);
 
      yield return new WaitForSeconds(waittime);
-        gameObject.GetComponent<Light>().intensity += 5;
+        gameObject.GetComponent<Light>().intensity += 1;
         yield return new WaitForSeconds(waittime);
         gameObject.GetComponent<Light>().intensity = 0;
     }

@@ -4,23 +4,20 @@ using UnityEngine;
 
 public class TriggerObjects : MonoBehaviour {
     public GameObject objectToActivate;
+    public Animator anim;
+    public bool openSaysMe;
+  //  int open = Animator.StringToHash("Open");
 
-    public float moveDirectionx;
-    public float moveDirectiony;
-    public float moveDirectionz;
-    
     void Start()
     {
-        Renderer rend = GetComponent<Renderer>();
-//        float startPos = transform.position;
+          anim = objectToActivate.GetComponent<Animator>();
+          openSaysMe = false;
     }
 
     void OnMouseDown()
     {
-        //objectToDeactivate.SetActive(false); 
-        //this.gameObject.SetActive(false);
-        //rend.material.shader = Shader.Find("_Color");
-        //rend.material.SetColor = ("_Color.red");
-        //objectToActivate.transform.position = Mathf.Lerp(moveDirectionx,moveDirectiony,moveDirectionz);
+        openSaysMe = true;        
+        this.gameObject.SetActive(false);
+
     }
 }
