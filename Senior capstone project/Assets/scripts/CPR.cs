@@ -17,7 +17,7 @@ public class CPR : MonoBehaviour {
     public float colorChange = 0.0001f;
     
 
-    public GameObject CprBox ;
+    //public GameObject CprBox ;
     public GameObject objThing ;
 
     void OnEnable() {
@@ -25,7 +25,7 @@ public class CPR : MonoBehaviour {
         StartCoroutine(GameOver());
       //Renderer rend = GetComponent<Renderer>();
         GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
-        CprBox.SetActive(true);
+        //CprBox.SetActive(true);
     }
 
     IEnumerator Cpr()

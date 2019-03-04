@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameOverScript : MonoBehaviour {
     public float i = 60;
+
+    public GameObject Victory;
 	// Use this for initialization
 	void OnEnable () {
 
@@ -23,7 +25,7 @@ public class GameOverScript : MonoBehaviour {
             }
             else
             {
-                print("Victory");
+                Victory.SetActive(true);
             }
         }
 
