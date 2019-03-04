@@ -16,7 +16,8 @@ public class TriggerObjects : MonoBehaviour {
 
     void OnMouseDown()
     {
-        openSaysMe = true;        
+        openSaysMe = true;   
+        anim.SetBool("Open", openSaysMe);
         this.gameObject.SetActive(false);
 
     }
