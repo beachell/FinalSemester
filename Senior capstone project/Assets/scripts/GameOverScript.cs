@@ -6,6 +6,8 @@ public class GameOverScript : MonoBehaviour {
     public float i = 60;
 
     public GameObject Victory;
+
+    public GameObject deactivateObject;
 	// Use this for initialization
 	void OnEnable () {
 
@@ -26,6 +28,7 @@ public class GameOverScript : MonoBehaviour {
             else
             {
                 Victory.SetActive(true);
+                deactivateObject.SetActive(false);
             }
         }
 

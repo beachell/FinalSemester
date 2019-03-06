@@ -19,13 +19,15 @@ public class CPR : MonoBehaviour {
 
     //public GameObject CprBox ;
     public GameObject objThing ;
-
+    public GameObject activatedAtStart ;
+    
     void OnEnable() {
+        activatedAtStart.SetActive(true);
         StartCoroutine(Cpr());
         StartCoroutine(GameOver());
       //Renderer rend = GetComponent<Renderer>();
         GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);
-        //CprBox.SetActive(true);
+       
     }
 
     IEnumerator Cpr()
@@ -66,7 +68,9 @@ public class CPR : MonoBehaviour {
             {
               //print("game Over");//this is where you call the GameOverScript()
                 gameStillPlaying = false;
-                objThing.SetActive(true);            }
+                objThing.SetActive(true);
+                activatedAtStart.SetActive(false);
+            }
             print("dying"+deathTimer);
         }
     }

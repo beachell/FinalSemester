@@ -128,7 +128,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &67199534
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,8 +141,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6430dce1c8b8ad34b96479bbb5c4cc57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  i: 60
+  i: 90
   Victory: {fileID: 2131941040}
+  deactivateObject: {fileID: 1887697135}
 --- !u!4 &67199535
 Transform:
   m_ObjectHideFlags: 0
@@ -151,11 +152,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 67199533}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.4212008, y: 0, z: 0}
+  m_LocalPosition: {x: 2.4812012, y: -1.21, z: 12.163}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1589688724}
-  m_RootOrder: 1
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &82330375
 GameObject:
@@ -931,7 +932,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &233746077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4119,12 +4120,13 @@ MonoBehaviour:
   - Dispatch:You need to perform cpr right away. Do you know how to do that?
   - no
   - 'First you need to find their sternum, it will be in the center of the chest. '
-  - Then put one hand fingers spread on the sternum and the other hand over the top
-    with the fingers between the fingers of the other hand you will want to press
-    directly down into the chest in rhythm?
-  - "You know the song stayin alive? You will want to be in rhythm with that. The
-    ambulance is on it\u2019s way. Keep doing compressions till they arrive."
-  ObjectToBeActivated: {fileID: 1589688723}
+  - Then put one hand fingers spread on the sternum
+  - 'the other hand over the top with the fingers between the fingers of the other
+    hand  '
+  - press directly down into the chest in rhythm
+  - You know the song stayin alive? You will want to be in rhythm with that.
+  - "The ambulance is on it\u2019s way. Keep doing compressions till they arrive."
+  ObjectToBeActivated: {fileID: 1887697135}
 --- !u!114 &1323044950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5034,38 +5036,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 9.01, y: 2.8111913, z: 0}
   m_Center: {x: 4.16, y: -1.4055957, z: -0.00000023841858}
---- !u!1 &1589688723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1589688724}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1589688724
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1589688723}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.06000042, y: -1.21, z: 12.163}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1887697140}
-  - {fileID: 67199535}
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1731334164
 GameObject:
   m_ObjectHideFlags: 0
@@ -5131,8 +5101,8 @@ MonoBehaviour:
   - 'Dispatch: Does he have an Epipen?'
   - Do you have an Epipen?
   - 'Man: Yes... but I need...help using it'
-  - Dispatch:avoid holding the pen by the bottom. Remove the cap and press the bottom
-    into the man's leg.
+  - 'Dispatch:avoid holding the pen by the bottom. '
+  - Remove the cap and press the bottom into the man's leg.
   ObjectToBeActivated: {fileID: 84224495}
 --- !u!114 &1731334167
 MonoBehaviour:
@@ -5622,7 +5592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1887697136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5635,11 +5605,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a9c708bc7dea6e4ab4310f15a0226a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathTimer: 40
+  deathTimer: 20
   ReadyColor: {r: 0.08596015, g: 1, b: 0, a: 0}
   NRColor: {r: 1, g: 0, b: 0, a: 0}
   colorChange: 0.01
   objThing: {fileID: 1974997773}
+  activatedAtStart: {fileID: 67199533}
 --- !u!65 &1887697137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5706,11 +5677,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1887697135}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.8599995, y: 1.22, z: 1.356}
+  m_LocalPosition: {x: 1.92, y: 0.00999999, z: 13.519}
   m_LocalScale: {x: 1, y: 0.25120696, z: 1}
   m_Children: []
-  m_Father: {fileID: 1589688724}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1891560135
 GameObject:

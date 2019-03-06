@@ -34,42 +34,12 @@ public class Pulse_Health : MonoBehaviour {
      // Epen.SetActive(true);
     }
 
-	//this is the running script that will check the heart beat
-	/*IEnumerator HeartBeat(float beat) {
-      
-        while (heartBeating)
-        {
-            //make an if statement that will change the bpm and if it gets to heart attack it will trigger CardiacArrest() 
-            //will need a function that will randomize if the patients heart beat increases to elevated and stay there and then randomly will increase or decrease unless treatment is done. 
-           print("bmp " +beat);
-            if (index < heartAttack)
-                {
 
-                //Debug.Log("beat_" +bpm);
-                }else{
-                heartBeating = false;
-                Debug.Log("heart ak");
-                TheCprObject.SetActive(true);
-
-                }
-            yield return new WaitForSeconds(1);
-        }
-    }*/
     IEnumerator Breathing() {
       //int stopbreathing = 20;
         while (isBreathing)
         {
-             /*//this will run every second randomly testing the value to see if it should stop breathing.
-           // index   = Random.Range(1, stopbreathing + 1);
-            if (index < stopbreathing)
-                {
-              // Debug.Log("breathing" + index);
-                }else{
-                isBreathing = false;
-                DeathObject.SetActive(true);
-                StopCoroutine(Breathing());
-                //Debug.Log("stopped breathing");
-                }*/
+             
             if(exhale == true){
                transform.localScale += new Vector3(0.1F, 0, 0);
                exhale = false;              
@@ -88,7 +58,6 @@ public class Pulse_Health : MonoBehaviour {
             {
                 isBreathing = true;
                 exhale = true;
-                DeathObject.SetActive(false);
                 print("injection" + isBreathing);
                 StartCoroutine(Breathing());
             }
