@@ -1174,7 +1174,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b59ec6bf18402214f8bc45791c56a838, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.86
+      value: -41.85
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b59ec6bf18402214f8bc45791c56a838, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1182,7 +1182,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b59ec6bf18402214f8bc45791c56a838, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -45.183
+      value: -45.42
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b59ec6bf18402214f8bc45791c56a838, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5145,7 +5145,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79e58ff9a9cfb1f44a49cf2499be638e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.98
+      value: -22.333
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79e58ff9a9cfb1f44a49cf2499be638e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5153,7 +5153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79e58ff9a9cfb1f44a49cf2499be638e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.72
+      value: 14.716
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79e58ff9a9cfb1f44a49cf2499be638e, type: 3}
       propertyPath: m_LocalRotation.x
@@ -5189,7 +5189,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79e58ff9a9cfb1f44a49cf2499be638e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.88731
+      value: 0.9086055
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 79e58ff9a9cfb1f44a49cf2499be638e, type: 3}
       propertyPath: m_LocalScale.z
@@ -7425,7 +7425,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6668b3ca96285b41842260f3c3da577, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToDeactivate: {fileID: 0}
+  objectToDeactivate: {fileID: 998000021}
 --- !u!108 &954676909
 Light:
   m_ObjectHideFlags: 0
@@ -7646,22 +7646,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!111 &998000023
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 998000021}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Animation: {fileID: 0}
-  m_Animations:
-  - {fileID: 7400000, guid: 476c69384fe47eb468956d31833fea40, type: 2}
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_CullingType: 0
 --- !u!4 &1009469977 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b59ec6bf18402214f8bc45791c56a838,
@@ -9123,6 +9107,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cfd0ae054689d24a9cfd0c2f71e57e5, type: 2}
     - target: {fileID: 400002, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -9131,10 +9119,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3cfd0ae054689d24a9cfd0c2f71e57e5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
 --- !u!1001 &1259051148
@@ -9807,14 +9791,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.7924213
       objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.97
-      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 91fcb36f2d8e1af41a0e2baaf8deef65, type: 2}
+    - target: {fileID: 400002, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.97
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
 --- !u!1 &1366446463 stripped
@@ -11012,7 +10996,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6db61911ee7c5984a9f3d4074776a1bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07687563
+      value: -0.025
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6db61911ee7c5984a9f3d4074776a1bf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -11761,7 +11745,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6db61911ee7c5984a9f3d4074776a1bf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.07687563
+      value: -0.025
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6db61911ee7c5984a9f3d4074776a1bf, type: 3}
       propertyPath: m_LocalPosition.z
@@ -12015,8 +11999,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d7b143702657e74e91c9079127afbad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToActivate: {fileID: 0}
-  anim: {fileID: 0}
+  objectToActivate: {fileID: 928071081}
+  anim: {fileID: 928071082}
   openSaysMe: 0
 --- !u!108 &1669962345
 Light:
@@ -13285,11 +13269,11 @@ Animation:
   m_GameObject: {fileID: 1872620885}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 0}
+  m_Animation: {fileID: 7400000, guid: 1030edbc21565a341a044a02b2d469bc, type: 2}
   m_Animations:
   - {fileID: 7400000, guid: 1030edbc21565a341a044a02b2d469bc, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 1
+  m_PlayAutomatically: 0
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!1 &1875517188 stripped
