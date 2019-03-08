@@ -24,11 +24,15 @@ public class CameraLook : MonoBehaviour
       {
         var md = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
         md = Vector2.Scale(md, new Vector2(sensi * smoothing, sensi * smoothing));
-        smoothV.x = Mathf.Lerp(smoothV.x, md.x, 1f / smoothing);
-        smoothV.y = Mathf.Lerp(smoothV.y, md.y, 1f / smoothing);
+          //----------------------------------------------------
+          
+          smoothV.x = Mathf.Lerp(smoothV.x, md.x, 1f / smoothing);
+          smoothV.x = Mathf.Clamp(smoothV.x, minc, maxc);
+          smoothV.y = -Mathf.Lerp(smoothV.y, md.y, 1f / smoothing);
+        
         mouseLook += smoothV;
 
-        transform.localRotation = Quaternion.AngleAxis(mouseLook.y, Vector3.right);
+        transform.localRotation = Quaternion.Euler(Vector3.right * mouseLook.y);
         character.transform.localRotation = Quaternion.AngleAxis(mouseLook.x, character.transform.up);
         
 

@@ -67,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TriggerObjects.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TriggerObjects.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -77,6 +77,22 @@
                 <marker date="1551719662668" expanded="true" signature="124:540" ph="{...}" />
                 <marker date="1551719662668" expanded="true" signature="285:387" ph="{...}" />
                 <marker date="1551719662668" expanded="true" signature="411:538" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraLook.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/CameraLook.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="35" column="78" selection-start-line="35" selection-start-column="78" selection-end-line="35" selection-end-column="78" />
+              <folding>
+                <marker date="1552069373210" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552069373210" expanded="true" signature="166:2694" ph="{...}" />
+                <marker date="1552069373210" expanded="true" signature="438:514" ph="{...}" />
+                <marker date="1552069373210" expanded="true" signature="575:1265" ph="{...}" />
+                <marker date="1552069373210" expanded="true" signature="1272:2692" ph="/* public enum RotationAxes { MouseXAndY = 0, MouseX = 1, MouseY = 2 } ... */" />
               </folding>
             </state>
           </provider>
@@ -122,6 +138,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CameraLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/lightscript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs" root0="FORCE_HIGHLIGHTING" />
@@ -144,6 +161,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/lightscript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/TriggerOthers.cs" />
+        <option value="$PROJECT_DIR$/Assets/CameraLook.cs" />
       </list>
     </option>
   </component>
@@ -153,9 +171,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="690" />
-    <option name="width" value="1237" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1699" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -164,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -180,7 +199,6 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -230,11 +248,13 @@
       <workItem from="1551286412105" duration="1215000" />
       <workItem from="1551715204317" duration="1702000" />
       <workItem from="1551891684273" duration="674000" />
+      <workItem from="1552067234661" duration="941000" />
+      <workItem from="1552068724575" duration="1248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22940000" />
+    <option name="totallyTimeSpent" value="25129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,7 +266,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="690" y="0" width="1237" height="1047" extended-state="1" />
+    <frame x="-7" y="0" width="1699" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -256,7 +276,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34749362" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18791947" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
