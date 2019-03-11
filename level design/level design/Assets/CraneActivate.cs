@@ -5,6 +5,7 @@ using UnityEngine;
 public class CraneActivate : MonoBehaviour
 {
     public GameObject objectToActivate;
+    public bool activateButtonBla = true;
 
     void Start()
     {
@@ -13,8 +14,8 @@ public class CraneActivate : MonoBehaviour
 
     void OnMouseDown()
     {
-        objectToActivate.SetActive(true);
-        this.gameObject.SetActive(false);
-
+        //!= is the opposite of what it is
+            
+        objectToActivate.SetActive(!true);
     }
 }

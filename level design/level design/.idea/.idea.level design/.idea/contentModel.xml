@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="CameraLook.cs" t="Include" />
         <e p="character.cs" t="Include" />
+        <e p="CollisionWCrate.cs" t="Include" />
         <e p="CraneActivate.cs" t="Include" />
         <e p="MouseLook.cs" t="Include" />
         <e p="ProCore" t="Include">
