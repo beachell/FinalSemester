@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +9,8 @@ public class EpenMover : MonoBehaviour {
 
     public GameObject Epen;
     public GameObject objectToActivate;
-
+    public GameObject objectToActivate2;
+    public GameObject objectToDeactvate;
 
     void OnMouseDrag(){
 	    Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, followDistance);
@@ -22,6 +24,8 @@ public class EpenMover : MonoBehaviour {
 	    {
 		    Epen.SetActive(false);
 		    objectToActivate.SetActive(true);
-	    }
+            objectToActivate2.SetActive(true);
+            objectToDeactvate.SetActive(true);
+        }
     }
 }
