@@ -27,6 +27,13 @@ public class ButtonScript : MonoBehaviour
 		Crane.transform.Translate(0,YMove,ZMove);
 	}
 
-	
+	/*
+	 * problem, crane goes too far left and right up and down.
+	 *
+	 * possible solutions,
+	 * 1. have the buttons become gameobjects that can be triggered and will have a specific count with if statements
+	 * to check if they can be used.
+	 * 2. 
+	 */
 
 }

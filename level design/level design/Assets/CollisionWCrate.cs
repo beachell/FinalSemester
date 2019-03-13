@@ -18,4 +18,9 @@ public class CollisionWCrate : MonoBehaviour
         print("collided");
         
     }
+
+    private void OnDisable()
+    {
+        this.transform.DetachChildren();
+    }
 }
