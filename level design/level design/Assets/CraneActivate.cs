@@ -10,6 +10,7 @@ public class CraneActivate : MonoBehaviour
     void Start()
     {
         onOff = false;
+        //objectToActivate.GetComponent<>()
     }
 
     void OnMouseDown()
@@ -23,7 +24,9 @@ public class CraneActivate : MonoBehaviour
         }
         else
         {
-            //objectToActivate.transform.DetachChildren();
+            objectToActivate.GetComponent<Rigidbody>().isKinematic = false;
+            objectToActivate.GetComponent<Rigidbody>().useGravity = true;
+            objectToActivate.transform.DetachChildren();
             objectToActivate.SetActive(false);
             
         }

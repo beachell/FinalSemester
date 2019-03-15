@@ -16,7 +16,8 @@ public class CollisionWCrate : MonoBehaviour
     {
         other.transform.SetParent(this.transform);
         print("collided");
-        
+        other.transform.GetComponent<Rigidbody>().isKinematic = true;
+        other.transform.GetComponent<Rigidbody>().useGravity = false;
     }
 
     private void OnDisable()
