@@ -23,7 +23,9 @@ public class CraneActivate : MonoBehaviour
         }
         else
         {
+            //objectToActivate.transform.DetachChildren();
             objectToActivate.SetActive(false);
+            
         }
         print("end");
     }
