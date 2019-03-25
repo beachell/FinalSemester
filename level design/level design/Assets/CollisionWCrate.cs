@@ -25,3 +25,4 @@ public class CollisionWCrate : MonoBehaviour
         this.transform.DetachChildren();
     }
 }
+//this script is to grab onto the crate when it collides with the object this script is on.

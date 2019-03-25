@@ -22,3 +22,4 @@ public class TriggerObjects : MonoBehaviour {
 
     }
 }
+//this is used as the door opener

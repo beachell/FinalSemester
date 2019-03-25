@@ -4,17 +4,18 @@ using UnityEngine;
 
 public class LockerDoorCode : MonoBehaviour {
 
-	public GameObject objectToDeactivate;
-	
-	void Start()
-	{
-		
-	}
+	public GameObject objectToActivate;
 
-	void OnMouseDown()
+    private void Start()
+    {
+        objectToActivate.SetActive(false);
+    }
+
+    void OnMouseDown()
 	{
-		objectToDeactivate.SetActive(false); 
+		objectToActivate.SetActive(true); 
 		this.gameObject.SetActive(false);
 		
 	}
 }
+//this is to trigger the door activator objects to proceed

@@ -12,6 +12,10 @@ public class EpenMover : MonoBehaviour {
     public GameObject objectToActivate2;
     public GameObject objectToDeactvate;
 
+
+
+
+
     void OnMouseDrag(){
 	    Vector3 mousePosition = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, followDistance);
 	    Vector3 objPosition = Camera.main.ScreenToWorldPoint(mousePosition);
@@ -25,7 +29,7 @@ public class EpenMover : MonoBehaviour {
 		    Epen.SetActive(false);
 		    objectToActivate.SetActive(true);
             objectToActivate2.SetActive(true);
-            objectToDeactvate.SetActive(true);
+            objectToDeactvate.SetActive(false);
         }
     }
 }

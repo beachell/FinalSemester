@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CraneActivate : MonoBehaviour
 {
-    public GameObject objectToActivate;
+    public GameObject objectToActivate;    
     public bool onOff;
 
     void Start()
@@ -19,16 +19,15 @@ public class CraneActivate : MonoBehaviour
         onOff =! onOff;
         if (onOff == true)
         {
-            objectToActivate.SetActive(true);
+            objectToActivate.SetActive(true);           
             print("on");
         }
         else
         {
             objectToActivate.GetComponent<Rigidbody>().isKinematic = false;
             objectToActivate.GetComponent<Rigidbody>().useGravity = true;
-            objectToActivate.transform.DetachChildren();
-            objectToActivate.SetActive(false);
-            
+          //  objectToActivate.transform.DetachChildren();            
+            objectToActivate.SetActive(false);            
         }
         print("end");
     }
