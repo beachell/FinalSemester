@@ -40,11 +40,11 @@ public class CameraLook : MonoBehaviour
             mouseY = 0f;
             ClampXAxisRotation(270);
         }
-        else if (xAxisClamp < -90f)
+        else if (xAxisClamp < -89f)
         {
-            xAxisClamp = -89f;
+            xAxisClamp = -90f;
             mouseY = 0f;
-            ClampXAxisRotation(-90);
+            ClampXAxisRotation(-270);
 
         }
         transform.Rotate(Vector3.left * mouseY);
