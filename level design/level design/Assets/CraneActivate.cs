@@ -24,10 +24,11 @@ public class CraneActivate : MonoBehaviour
         }
         else
         {
-            objectToActivate.GetComponent<Rigidbody>().isKinematic = false;
+          /*  objectToActivate.GetComponent<Rigidbody>().isKinematic = false;
             objectToActivate.GetComponent<Rigidbody>().useGravity = true;
-          //  objectToActivate.transform.DetachChildren();            
-            objectToActivate.SetActive(false);            
+            objectToActivate.transform.DetachChildren();            */
+            objectToActivate.SetActive(false);
+            print("off");
         }
         print("end");
     }
