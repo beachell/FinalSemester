@@ -6,6 +6,7 @@ public class ButtonScript : MonoBehaviour
 {
 
 	public GameObject Crane;
+	public GameObject audioObject;
 
 	public float YMove = 0;
 	private float yMin = 0.7f;
@@ -18,6 +19,7 @@ public class ButtonScript : MonoBehaviour
 	private void Start()
 	{
 		//GetComponent<Transform>(Crane).position;
+		audioObject.SetActive(false);
 	}
 
 	// Use this for initialization
@@ -25,6 +27,12 @@ public class ButtonScript : MonoBehaviour
 	{
 		//if (gameObject.transform.localPosition )
 		Crane.transform.Translate(0,YMove,ZMove);
+		audioObject.SetActive(true);
+	}
+
+	private void OnMouseExit()
+	{
+		audioObject.SetActive(false);
 	}
 
 	/*
