@@ -7,6 +7,7 @@ public class ButtonScript : MonoBehaviour
 
 	public GameObject Crane;
 	public GameObject audioObject;
+	public GameObject EnableOtherDirection;
 
 	public float YMove = 0;
 	private float yMin = 0.7f;
@@ -28,6 +29,7 @@ public class ButtonScript : MonoBehaviour
 		//if (gameObject.transform.localPosition )
 		Crane.transform.Translate(0,YMove,ZMove);
 		audioObject.SetActive(true);
+		EnableOtherDirection.SetActive(false);
 	}
 
 	private void OnMouseExit()

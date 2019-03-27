@@ -20,8 +20,8 @@ public class CollisionWCrate : MonoBehaviour
         print("collided");
         SoundObject.SetActive(true);
         stopMovingdown.SetActive(true);
-        other.transform.GetComponent<Rigidbody>().isKinematic = true;
-        other.transform.GetComponent<Rigidbody>().useGravity = false;
+     //   other.transform.GetComponent<Rigidbody>().isKinematic = true;
+       // other.transform.GetComponent<Rigidbody>().useGravity = false;
         
     }
 

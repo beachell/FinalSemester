@@ -11,15 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Player.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LockerDoorCode.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -32,17 +23,29 @@
       <file leaf-file-name="TriggerObjects.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="270">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraLook.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CameraLook.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/CameraLook.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+            <state relative-caret-position="765">
+              <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <marker date="1553537583887" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553537583887" expanded="true" signature="167:3982" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="401:467" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="498:560" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="586:624" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="659:1274" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="908:1020" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="1056:1171" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="1324:1472" ph="{...}" />
+                <marker date="1553537583887" expanded="true" signature="1477:3980" ph="/* Vector2 mouseLook; ... */" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,29 +62,30 @@
       <file leaf-file-name="CollisionWCrate.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="315">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
-                <marker date="1553703399705" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553703399705" expanded="true" signature="124:808" ph="{...}" />
-                <marker date="1553703399705" expanded="true" signature="297:355" ph="{...}" />
-                <marker date="1553703399705" expanded="true" signature="407:723" ph="{...}" />
-                <marker date="1553703399705" expanded="true" signature="753:806" ph="{...}" />
+                <marker date="1553715215790" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553715215790" expanded="true" signature="124:812" ph="{...}" />
+                <marker date="1553715215790" expanded="true" signature="297:355" ph="{...}" />
+                <marker date="1553715215790" expanded="true" signature="407:727" ph="{...}" />
+                <marker date="1553715215790" expanded="true" signature="574:712" ph="/* other.transform.GetComponent&lt;Rigidbody&gt;().isKinematic = true; ... */" />
+                <marker date="1553715215790" expanded="true" signature="757:810" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="craneUpdeactivate.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="craneUpdeactivate.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/craneUpdeactivate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+            <state relative-caret-position="165">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <marker date="1553705028884" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553705028884" expanded="true" signature="126:506" ph="{...}" />
-                <marker date="1553705028884" expanded="true" signature="297:355" ph="{...}" />
-                <marker date="1553705028884" expanded="true" signature="407:504" ph="{...}" />
+                <marker date="1553709353018" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553709353018" expanded="true" signature="126:506" ph="{...}" />
+                <marker date="1553709353018" expanded="true" signature="297:355" ph="{...}" />
+                <marker date="1553709353018" expanded="true" signature="407:504" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -90,17 +94,8 @@
       <file leaf-file-name="CraneActivate.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/CraneActivate.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="390">
               <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-              <folding>
-                <marker date="1553698336571" expanded="false" signature="6:78" ph="..." />
-                <marker date="1553698336571" expanded="true" signature="122:854" ph="{...}" />
-                <marker date="1553698336571" expanded="true" signature="209:288" ph="{...}" />
-                <marker date="1553698336571" expanded="true" signature="312:852" ph="{...}" />
-                <marker date="1553698336571" expanded="true" signature="393:495" ph="{...}" />
-                <marker date="1553698336571" expanded="true" signature="508:824" ph="{...}" />
-                <marker date="1553698336571" expanded="true" signature="529:741" ph="/* objectToActivate.GetComponent&lt;Rigidbody&gt;().isKinematic = false; ... */" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -118,7 +113,28 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+              <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+              <folding>
+                <marker date="1553715643046" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553715643046" expanded="true" signature="121:1049" ph="{...}" />
+                <marker date="1553715643046" expanded="true" signature="413:496" ph="{...}" />
+                <marker date="1553715643046" expanded="true" signature="557:724" ph="{...}" />
+                <marker date="1553715643046" expanded="true" signature="753:791" ph="{...}" />
+                <marker date="1553715643046" expanded="true" signature="794:1046" ph="/* problem, crane goes too far left and right up and down. ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mouseIcon.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/mouseIcon.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <marker date="1553722361209" expanded="false" signature="6:78" ph="..." />
+                <marker date="1553722361209" expanded="true" signature="118:192" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -129,18 +145,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/TriggerOthers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TriggerOthers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CameraLook.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/lightscript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/craneUpdeactivate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/CraneActivate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/character.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/lightscript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/mouseIcon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/craneUpdeactivate.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -162,9 +179,10 @@
         <option value="$PROJECT_DIR$/Assets/CraneActivate.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraLook.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" />
+        <option value="$PROJECT_DIR$/Assets/craneUpdeactivate.cs" />
         <option value="$PROJECT_DIR$/Assets/CollisionWCrate.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/craneUpdeactivate.cs" />
+        <option value="$PROJECT_DIR$/Assets/mouseIcon.cs" />
       </list>
     </option>
   </component>
@@ -175,8 +193,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="951" />
-    <option name="width" value="976" />
+    <option name="x" value="341" />
+    <option name="width" value="1290" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -185,6 +203,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -201,7 +220,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,11 +278,13 @@
       <workItem from="1553527379185" duration="1900000" />
       <workItem from="1553545444660" duration="611000" />
       <workItem from="1553700021291" duration="2443000" />
+      <workItem from="1553715181653" duration="1069000" />
+      <workItem from="1553722205309" duration="814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41877000" />
+    <option name="totallyTimeSpent" value="43760000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -276,22 +296,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="951" y="0" width="976" height="1047" extended-state="0" />
+    <frame x="341" y="0" width="1290" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22161572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17154472" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -311,13 +331,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/MouseLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -475,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CameraLook.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/character.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -491,57 +497,87 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="25" selection-end-column="5" />
-          <folding>
-            <marker date="1553703399705" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553703399705" expanded="true" signature="124:808" ph="{...}" />
-            <marker date="1553703399705" expanded="true" signature="297:355" ph="{...}" />
-            <marker date="1553703399705" expanded="true" signature="407:723" ph="{...}" />
-            <marker date="1553703399705" expanded="true" signature="753:806" ph="{...}" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/CraneActivate.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
+        <state relative-caret-position="390">
           <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
-            <marker date="1553698336571" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553698336571" expanded="true" signature="122:854" ph="{...}" />
-            <marker date="1553698336571" expanded="true" signature="209:288" ph="{...}" />
-            <marker date="1553698336571" expanded="true" signature="312:852" ph="{...}" />
-            <marker date="1553698336571" expanded="true" signature="393:495" ph="{...}" />
-            <marker date="1553698336571" expanded="true" signature="508:824" ph="{...}" />
-            <marker date="1553698336571" expanded="true" signature="529:741" ph="/* objectToActivate.GetComponent&lt;Rigidbody&gt;().isKinematic = false; ... */" />
+            <marker date="1553715215790" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553715215790" expanded="true" signature="124:812" ph="{...}" />
+            <marker date="1553715215790" expanded="true" signature="297:355" ph="{...}" />
+            <marker date="1553715215790" expanded="true" signature="407:727" ph="{...}" />
+            <marker date="1553715215790" expanded="true" signature="574:712" ph="/* other.transform.GetComponent&lt;Rigidbody&gt;().isKinematic = true; ... */" />
+            <marker date="1553715215790" expanded="true" signature="757:810" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/craneUpdeactivate.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <marker date="1553705028884" expanded="false" signature="6:78" ph="..." />
-            <marker date="1553705028884" expanded="true" signature="126:506" ph="{...}" />
-            <marker date="1553705028884" expanded="true" signature="297:355" ph="{...}" />
-            <marker date="1553705028884" expanded="true" signature="407:504" ph="{...}" />
+            <marker date="1553709353018" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553709353018" expanded="true" signature="126:506" ph="{...}" />
+            <marker date="1553709353018" expanded="true" signature="297:355" ph="{...}" />
+            <marker date="1553709353018" expanded="true" signature="407:504" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <marker date="1553715643046" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553715643046" expanded="true" signature="121:1049" ph="{...}" />
+            <marker date="1553715643046" expanded="true" signature="413:496" ph="{...}" />
+            <marker date="1553715643046" expanded="true" signature="557:724" ph="{...}" />
+            <marker date="1553715643046" expanded="true" signature="753:791" ph="{...}" />
+            <marker date="1553715643046" expanded="true" signature="794:1046" ph="/* problem, crane goes too far left and right up and down. ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/mouseIcon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <marker date="1553722361209" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553722361209" expanded="true" signature="118:192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/CameraLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="65" column="28" lean-forward="true" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <marker date="1553537583887" expanded="false" signature="6:78" ph="..." />
+            <marker date="1553537583887" expanded="true" signature="167:3982" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="401:467" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="498:560" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="586:624" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="659:1274" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="908:1020" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="1056:1171" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="1324:1472" ph="{...}" />
+            <marker date="1553537583887" expanded="true" signature="1477:3980" ph="/* Vector2 mouseLook; ... */" />
           </folding>
         </state>
       </provider>
