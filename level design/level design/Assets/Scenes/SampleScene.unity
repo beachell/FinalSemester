@@ -25601,6 +25601,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3cfd0ae054689d24a9cfd0c2f71e57e5, type: 2}
     - target: {fileID: 400002, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
@@ -25609,10 +25613,6 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2300000, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3cfd0ae054689d24a9cfd0c2f71e57e5, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75863116e1aef3941b5fc49169a6b5ef, type: 3}
 --- !u!1001 &1259051148
@@ -26530,14 +26530,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.7924213
       objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.97
-      objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 91fcb36f2d8e1af41a0e2baaf8deef65, type: 2}
+    - target: {fileID: 400002, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.97
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4714ef9388f7516448d0c4b3dfe721ff, type: 3}
 --- !u!1 &1366446463 stripped
@@ -36578,7 +36578,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2030169146}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0.58, z: 0}
+  m_LocalPosition: {x: 0, y: 1.03, z: 0}
   m_LocalScale: {x: 1, y: 1.4813718, z: 1}
   m_Children:
   - {fileID: 1338045682}
