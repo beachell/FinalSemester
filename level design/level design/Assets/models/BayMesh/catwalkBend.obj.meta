@@ -4,13 +4,13 @@ ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: polySurface5
+    100002: polySurface116
     400000: //RootNode
-    400002: polySurface5
-    2100000: polySurface5Mat
-    2300000: polySurface5
-    3300000: polySurface5
-    4300000: polySurface5
+    400002: polySurface116
+    2100000: initialShadingGroup
+    2300000: polySurface116
+    3300000: polySurface116
+    4300000: polySurface116
   externalObjects: {}
   materials:
     importMaterials: 1
