@@ -7,14 +7,12 @@ public class TriggerObjects : MonoBehaviour {
     public GameObject soundObject;
     public Animator anim;
     public bool openSaysMe;
-  //  int open = Animator.StringToHash("Open");
 
     void Start()
     {
           anim = objectToActivate.GetComponent<Animator>();
           openSaysMe = false;
           soundObject.SetActive(false);
-
     }
 
     void OnMouseDown()
@@ -23,7 +21,16 @@ public class TriggerObjects : MonoBehaviour {
         anim.SetBool("Open", openSaysMe);
         this.gameObject.SetActive(false);
         soundObject.SetActive(true);
+    }
 
+    private void OnMouseOver()
+    {
+        print("why aren't you working?");
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        print("this has an object over it");
     }
 }
 //this is used as the door opener

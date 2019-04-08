@@ -16,18 +16,25 @@ public class CollisionWCrate : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        other.transform.SetParent(this.transform);
-        print("collided");
-        SoundObject.SetActive(true);
-        stopMovingdown.SetActive(true);
-        other.transform.GetComponent<Rigidbody>().isKinematic = true;
-        other.transform.GetComponent<Rigidbody>().useGravity = false;
+        //put an if statement to check the tag of the crate to run this code.
+        //have an else statement so it will stopMovingdown.SetActive(true); for anything else
+        if (other.gameObject.tag == "crate")
+        {
+            print("collided crate");
+            other.transform.SetParent(this.transform);
+            SoundObject.SetActive(true);
+            stopMovingdown.SetActive(true);
+            other.transform.GetComponent<Rigidbody>().isKinematic = true;
+            other.transform.GetComponent<Rigidbody>().useGravity = false;
+        }
+        else
+        {
+            stopMovingdown.SetActive(true);
+            print("other");
+        }
+        //add else statement here
         
     }
 
-    /*private void OnDisable()
-    {
-        this.transform.DetachChildren();
-    }*/
 }
 //this script is to grab onto the crate when it collides with the object this script is on.
