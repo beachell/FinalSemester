@@ -11,14 +11,14 @@
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
-    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
     <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2018.3.5f1</UnityVersion>
     <RootNamespace></RootNamespace>
-    <LangVersion>6</LangVersion>
+    <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -43,7 +43,7 @@
   <ItemGroup>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System.XML" />
     <Reference Include="System.Core" />
     <Reference Include="Boo.Lang" />
     <Reference Include="UnityScript.Lang" />
@@ -648,13 +648,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraLook.cs" />
-    <Compile Include="Assets\character.cs" />
-    <Compile Include="Assets\CollisionWCrate.cs" />
-    <Compile Include="Assets\CraneActivate.cs" />
-    <Compile Include="Assets\craneUpdeactivate.cs" />
-    <Compile Include="Assets\mouseIcon.cs" />
-    <Compile Include="Assets\MouseLook.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -662,12 +655,19 @@
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Runtime Editing\RuntimeEdit.cs" />
     <Compile Include="Assets\ProCore\ProBuilder\API Examples\Vertex Colors\HighlightNearestFace.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
+    <Compile Include="Assets\Scripts\CameraLook.cs" />
+    <Compile Include="Assets\Scripts\character.cs" />
+    <Compile Include="Assets\Scripts\CollisionWCrate.cs" />
+    <Compile Include="Assets\Scripts\CraneActivate.cs" />
+    <Compile Include="Assets\Scripts\craneUpdeactivate.cs" />
     <Compile Include="Assets\Scripts\lightscript.cs" />
     <Compile Include="Assets\Scripts\LockerDoorCode.cs" />
+    <Compile Include="Assets\Scripts\mouseIcon.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\TriggerFall.cs" />
     <Compile Include="Assets\Scripts\TriggerObjects.cs" />
-    <Compile Include="Assets\TriggerOthers.cs" />
+    <Compile Include="Assets\Scripts\TriggerOthers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\README.txt" />
@@ -775,34 +775,4 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>C:\Program Files\Unity\Hub\Editor\2018.3.5f1\Editor\Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
-  </ItemGroup>
 </Project>
