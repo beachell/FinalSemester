@@ -8,6 +8,7 @@ ModelImporter:
     400000: //RootNode
     400002: pCube38
     2100000: initialShadingGroup
+    2100002: pCube38Mat
     2300000: pCube38
     3300000: pCube38
     4300000: pCube38

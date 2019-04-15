@@ -11,83 +11,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LockerDoorCode.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TriggerObjects.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="135">
               <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CameraLook.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CameraLook.cs">
+      <file leaf-file-name="CameraLook.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraLook.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="975">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="character.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/character.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CollisionWCrate.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="345">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
-                <marker date="1554741670359" expanded="false" signature="6:78" ph="..." />
-                <marker date="1554741670359" expanded="true" signature="124:1132" ph="{...}" />
-                <marker date="1554741670359" expanded="true" signature="297:355" ph="{...}" />
-                <marker date="1554741670359" expanded="true" signature="407:1129" ph="{...}" />
-                <marker date="1554741670359" expanded="true" signature="422:585" ph="/* put an if statement to check the tag of the crate to run this code. ... */" />
-                <marker date="1554741670359" expanded="true" signature="630:975" ph="{...}" />
-                <marker date="1554741670359" expanded="true" signature="988:1080" ph="{...}" />
+                <marker date="1555341192550" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555341192550" expanded="true" signature="167:4059" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="401:467" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="498:560" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="591:629" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="664:1279" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="913:1025" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="1061:1176" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="1334:1482" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="1514:1548" ph="{...}" />
+                <marker date="1555341192550" expanded="true" signature="1554:4057" ph="/* Vector2 mouseLook; ... */" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mouseIcon.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/mouseIcon.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="craneUpdeactivate.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/craneUpdeactivate.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CraneActivate.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/CraneActivate.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -104,7 +54,7 @@
       <file leaf-file-name="ButtonScript.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="330">
               <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
             </state>
           </provider>
@@ -117,18 +67,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CraneActivate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/mouseIcon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/TriggerOthers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraLook.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/lightscript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/craneUpdeactivate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CollisionWCrate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/character.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraLook.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -154,6 +97,7 @@
         <option value="$PROJECT_DIR$/Assets/mouseIcon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs" />
         <option value="$PROJECT_DIR$/Assets/CollisionWCrate.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraLook.cs" />
       </list>
     </option>
   </component>
@@ -164,8 +108,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="945" />
-    <option name="width" value="982" />
+    <option name="x" value="689" />
+    <option name="width" value="1238" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -178,6 +122,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -190,7 +135,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -255,11 +199,12 @@
       <workItem from="1553875852674" duration="1047000" />
       <workItem from="1554326831089" duration="455000" />
       <workItem from="1554735735629" duration="2375000" />
+      <workItem from="1555340789353" duration="1014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47665000" />
+    <option name="totallyTimeSpent" value="48679000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -271,7 +216,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="945" y="0" width="982" height="1047" extended-state="0" />
+    <frame x="689" y="0" width="1238" height="1047" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -281,7 +226,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2462039" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19694397" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -306,13 +251,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/LockerDoorCode.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -472,7 +410,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TriggerObjects.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
@@ -500,14 +438,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/mouseIcon.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="285">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonScript.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
+        <state relative-caret-position="330">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
@@ -516,14 +454,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
           <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CameraLook.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
           <folding>
-            <marker date="1554741670359" expanded="false" signature="6:78" ph="..." />
-            <marker date="1554741670359" expanded="true" signature="124:1132" ph="{...}" />
-            <marker date="1554741670359" expanded="true" signature="297:355" ph="{...}" />
-            <marker date="1554741670359" expanded="true" signature="407:1129" ph="{...}" />
-            <marker date="1554741670359" expanded="true" signature="422:585" ph="/* put an if statement to check the tag of the crate to run this code. ... */" />
-            <marker date="1554741670359" expanded="true" signature="630:975" ph="{...}" />
-            <marker date="1554741670359" expanded="true" signature="988:1080" ph="{...}" />
+            <marker date="1555341192550" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555341192550" expanded="true" signature="167:4059" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="401:467" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="498:560" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="591:629" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="664:1279" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="913:1025" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="1061:1176" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="1334:1482" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="1514:1548" ph="{...}" />
+            <marker date="1555341192550" expanded="true" signature="1554:4057" ph="/* Vector2 mouseLook; ... */" />
           </folding>
         </state>
       </provider>

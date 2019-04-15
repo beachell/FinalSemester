@@ -23,6 +23,7 @@ public class CameraLook : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
     }
+    
     private void Update()
     {
         CameraRotation();
@@ -50,6 +51,7 @@ public class CameraLook : MonoBehaviour
         transform.Rotate(Vector3.left * mouseY);
         playerBody.Rotate(Vector3.up * mouseX);
     }
+    
     private void ClampXAxisRotation( float value)
     {
         Vector3 eulerRotation = transform.eulerAngles;
@@ -57,6 +59,12 @@ public class CameraLook : MonoBehaviour
         transform.eulerAngles = eulerRotation;
 
     }
+
+    private void OnMouseDown()
+    {
+        LockCursor();
+    }
+
     /*
     Vector2 mouseLook;
     Vector2 smoothV;
