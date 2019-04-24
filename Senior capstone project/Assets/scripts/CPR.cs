@@ -38,6 +38,7 @@ public class CPR : MonoBehaviour {
                 GetComponent<Renderer>().material.color = Color.Lerp(ReadyColor, NRColor, colorChange);//green
                 if (isCompressionUsed == false)
                 {
+                    transform.localScale += new Vector3(0.1f, 0.1f, 0);
                  //change the color of the object to red
                  //rend.SharedMaterial.shader = Shader.Find("_Color");
                  //CprBox.SharedMaterial.SetColor("_Color", Color.green);
@@ -83,6 +84,7 @@ public class CPR : MonoBehaviour {
         {
             //this is suppose to keep the game going as long as they press the spacebar on rythm
             print("press____"+deathTimer);
+            transform.localScale -= new Vector3(0.1f, 0.1f, 0);
             deathTimer++;
             isCompressionUsed = false;
         } else if (isCompressionUsed == false){ //! is the same as saying is opposite of what it currently is.

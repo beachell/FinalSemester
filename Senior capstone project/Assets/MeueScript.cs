@@ -5,10 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class MeueScript : MonoBehaviour
 {
+    public GameObject toDeactivate;
+    public GameObject gameOverObject;
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
-        
+     toDeactivate.SetActive(false);
+     gameOverObject.SetActive(true);
     }
 
     // Update is called once per frame
