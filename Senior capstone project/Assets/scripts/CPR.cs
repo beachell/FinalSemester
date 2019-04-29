@@ -14,13 +14,14 @@ public class CPR : MonoBehaviour {
     bool canStrike;
     public Color ReadyColor;
     public Color NRColor;
-    public float colorChange = 0.0001f;
-    
+    public float colorChange = 0.0001f;  
 
     //public GameObject CprBox ;
     public GameObject objThing ;
     public GameObject activatedAtStart ;
-    
+    public GameObject toDeactivate;
+    public GameObject gameOverObject;
+
     void OnEnable() {
         activatedAtStart.SetActive(true);
         StartCoroutine(Cpr());
@@ -71,6 +72,8 @@ public class CPR : MonoBehaviour {
                 gameStillPlaying = false;
                 objThing.SetActive(true);
                 activatedAtStart.SetActive(false);
+                toDeactivate.SetActive(false);
+                gameOverObject.SetActive(true);
             }
             print("dying"+deathTimer);
         }

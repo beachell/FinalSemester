@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4506278, g: 0.5005994, b: 0.57498455, a: 1}
+  m_IndirectSpecularColor: {r: 0.45062798, g: 0.5005995, b: 0.57498485, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1782,8 +1782,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241b7035f3d13c044aeb81b72ab8fc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toDeactivate: {fileID: 0}
-  gameOverObject: {fileID: 0}
 --- !u!1 &313149660
 GameObject:
   m_ObjectHideFlags: 0
@@ -6283,8 +6281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241b7035f3d13c044aeb81b72ab8fc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toDeactivate: {fileID: 20840620}
-  gameOverObject: {fileID: 354635859}
 --- !u!114 &1762959778
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6603,6 +6599,8 @@ MonoBehaviour:
   colorChange: 0.01
   objThing: {fileID: 1974997773}
   activatedAtStart: {fileID: 67199533}
+  toDeactivate: {fileID: 20840620}
+  gameOverObject: {fileID: 354635859}
 --- !u!65 &1887697137
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7475,8 +7473,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241b7035f3d13c044aeb81b72ab8fc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toDeactivate: {fileID: 0}
-  gameOverObject: {fileID: 0}
 --- !u!114 &2034286180
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7776,7 +7772,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &2126703579
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8086,5 +8082,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 241b7035f3d13c044aeb81b72ab8fc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toDeactivate: {fileID: 0}
-  gameOverObject: {fileID: 0}

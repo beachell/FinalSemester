@@ -8,6 +8,7 @@ public class GameOverScript : MonoBehaviour {
     public GameObject Victory;
 
     public GameObject deactivateObject;
+
 	// Use this for initialization
 	void OnEnable () {
 
